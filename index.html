@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Order Form</title>
+</head>
+<body>
+  <header></header>
+  <main>
+    <form class="order" action="action.html">
+      <h2>შეუკვეთე პროდუქტი დღესვე</h2>
+      <input type="text" name="firstname" id="firstname" placeholder="სახელი">
+      <input type="text" name="lastname" id="lastname" placeholder="გვარი">
+      <input type="tel" name="number" id="number" placeholder="ტელეფონის ნომერი">
+      <p class="descrip">გთხოვთ მიუთითოთ ზუსტი მისამართი</p>
+      <div class="address">
+        <input  type="text" name="firstname" id="firstname" placeholder="">
+      </div>
+      
+      <div class="payment">
+        <p class="descrip">აირჩიეთ გადახდის მეთოდი</p>
+
+
+        <div class="pay">
+          <div class="barati ">
+            <input type="radio" name="payment-method" id="by-card">
+      <label for="by-card">ბარათით გადახდა</label>
+          </div>
+
+          <div class="qeshi">
+            <input type="radio" name="payment-method" id="by-cash">
+      <label for="by-cash">ქეშით გადახდა</label>
+          </div>
+          
+      
+        </div>
+      
+      </div>
+      
+
+      <input type="submit" value="შეკვეთის გაფორმება">
+    </form>
+  </main>
+  <footer></footer>
+  <link rel="stylesheet" href="js/scripts.js">
+</body>
+</html>
