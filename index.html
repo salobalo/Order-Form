@@ -10,14 +10,16 @@
 <body>
   <header></header>
   <main>
-    <form class="order" action="action.html">
+    <form class="order" action="action.html" method="post">
       <h2>შეუკვეთე პროდუქტი დღესვე</h2>
       <input type="text" name="firstname" id="firstname" placeholder="სახელი">
       <input type="text" name="lastname" id="lastname" placeholder="გვარი">
-      <input type="tel" name="number" id="number" placeholder="ტელეფონის ნომერი">
+      <input type="tel" name="number" id="number" placeholder="ტელეფონის ნომერი"
+      required>
       <p class="descrip">გთხოვთ მიუთითოთ ზუსტი მისამართი</p>
       <div class="address">
-        <input  type="text" name="firstname" id="firstname" placeholder="">
+        <input  type="text" name="firstname" id="firstname" placeholder=""
+        required>
       </div>
       
       <div class="payment">
