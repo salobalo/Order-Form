@@ -65,6 +65,9 @@ h2 {
   margin-bottom: 0;
 }
 
+  /* align-content: center; */
+  justify-content: flex-end;
+ 
 
 .order input[type="radio"] {
   margin-left: 190px;
@@ -84,6 +87,7 @@ h2 {
   display: flex;
     width: 736px;
     justify-content: flex-end;
+    margin: 40px 0;
 }
 
 .pay .barati{
